@@ -176,6 +176,7 @@ ul{
 }
 .nav .navbar .list .list-item .dropdown:hover {
     /* opacity: 0; */
+    transition: 0.5s;
 }
 /* end navbar */
 /* header title */
@@ -236,6 +237,7 @@ ul{
     height: 170px;
     width: 100%;
     border-radius: 4px;
+    cursor: pointer;
 }
 .m{
     /* margin-right: 20px; */
@@ -364,16 +366,33 @@ ul{
 }
 .overlayy{
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.5);
     top: 0px;
-    left: 0px;
-    bottom: 4px;
-    right: 32px;
+    left: -10px;
+    bottom: -4px;
+    right: 13px;
 }
 .overlayy-content{
     margin-left: 20px;
-
+    /* transition: 2s; */
 }
+
+
+.img-header .image-2{
+    transform: scale(0.95);
+    transition: 0.5s ease-in-out;    
+}
+.img-header:hover .image-2{
+    transform: scale(1.05);
+}
+
+.img-header:hover .overlayy{
+    /* right: 12px;
+    bottom: -5px;
+    left: -9px; */
+}
+
+
 .overlayy .overlayy-content a{
     display: block;
     color: #fff;    
@@ -420,6 +439,22 @@ ul{
 .images-final{
     height: 500px;
 }
+
+.final-image .image-3{
+    transform: scale(0.88);
+    transition: 0.4s ease-in-out;    
+}
+.final-image:hover .image-3{
+    transform: scale(0.95);
+}
+
+.final-image:hover .overlayyy{
+    /* right: 6px;
+    bottom: -5px;
+    left: -12px;
+    top: -12px; */
+}
+
 .images-final .final-image{
     float: left;
     width: 50%;
@@ -428,10 +463,10 @@ ul{
 .overlayyy{
     position: absolute;
     background-color: rgba(0, 0, 0, 0.4);
-    top: 0px;
-    left: 0px;
-    bottom: 4px;
-    right: 32px;
+    top: 13px;
+    left: 15px;
+    bottom: 16px;
+    right: 29px;
 }
 .overlayyy-content{
     margin-left: 20px;
@@ -452,13 +487,14 @@ ul{
     font-size: 13px;
 }
 .overlayyy .overlayyy-content .a2{
-    margin-top: 20px;
+    margin-top: 11px;
     margin-bottom: 15px;
     font-size: 20px;
 }
 .overlayyy .overlayyy-content p{
     color: rgba(255, 255, 255, 0.8);
     font-size: 14px;
+    margin-top: -7px;
 }
 .icon:hover{
     background-color: red;
