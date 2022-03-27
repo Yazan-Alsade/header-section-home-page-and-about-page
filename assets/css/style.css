@@ -178,6 +178,7 @@ ul{
     /* opacity: 0; */
     transition: 0.5s;
 }
+
 /* end navbar */
 /* header title */
 .header-titles{
@@ -327,6 +328,7 @@ ul{
     margin-right: 50px;
 }
 /* end featured */
+
 /* start popular product */
 .popular-product{
     height: 150px;
@@ -351,48 +353,44 @@ ul{
     background-color: var(--maincolor);
     margin-top: 20px;
 }
-.image-2{
-    width: 350px;
-    height: 300px;
+.img-header{
+    background-color: aqua;
+    height: 301px;
+    margin-bottom: 15px;
+    background-size: cover;
+}
+.car-1{
+    background-image:url(../img/ximg_1.jpg.pagespeed.ic.j82vqtzLSp.webp);
+}
+.car-2{
+    background-image: url(../img/ximg_2.jpg.pagespeed.ic.5-pth7OZ43.webp);
+}
+.car-3{
+    background-image: url(../img/ximg_3.jpg.pagespeed.ic.K1pnvimfmk.webp);
 }
 .product-item{
-    overflow: hidden;
-    height: 320px;
+    display: flex;
+    justify-content: center;
 }
  .product-item .product-items{
-     float: left;
-     width: 33.33%;
+     /* float: left; */
+     width: 350px;
+     height: 301px;
      position: relative;
+     background-color: white;
+     margin: 20px;
 }
 .overlayy{
     position: absolute;
     background-color: rgba(0, 0, 0, 0.5);
     top: 0px;
-    left: -10px;
-    bottom: -4px;
-    right: 13px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
 }
 .overlayy-content{
     margin-left: 20px;
-    /* transition: 2s; */
 }
-
-
-.img-header .image-2{
-    transform: scale(0.95);
-    transition: 0.5s ease-in-out;    
-}
-.img-header:hover .image-2{
-    transform: scale(1.05);
-}
-
-.img-header:hover .overlayy{
-    /* right: 12px;
-    bottom: -5px;
-    left: -9px; */
-}
-
-
 .overlayy .overlayy-content a{
     display: block;
     color: #fff;    
@@ -430,43 +428,70 @@ ul{
 }
 /* end popular product */
 
-/* final-image */
-.image-3{
-    width: 543px;
-    border-radius: 4px;
+.img-header.car-4{
+    height: 464px;
+}
+.img-header.car-5{
+    height: 464px;
+}
+.product-item .product-items.ttwo{
+    width: 540px;
+    height: 464px;
+    position: relative;
+    background-color: white;
+    margin: 25px;
 }
 
-.images-final{
-    height: 500px;
+.car-4{
+    background-image:url(../img/ximg_4.jpg.pagespeed.ic.BUEZMeneMq.webp);
+}
+.car-5{
+    background-image: url(../img/ximg_2.jpg.pagespeed.ic.5-pth7OZ43.webp);
 }
 
-.final-image .image-3{
-    transform: scale(0.88);
+ .img-header.car-1{
+    transform: scale(0.98);
     transition: 0.4s ease-in-out;    
 }
-.final-image:hover .image-3{
-    transform: scale(0.95);
+ .img-header.car-1:hover{
+    transform: scale(1.1);
+}
+.img-header.car-2{
+    transform: scale(0.98);
+    transition: 0.4s ease-in-out;    
+}
+ .img-header.car-2:hover{
+    transform: scale(1.1);
+}
+.img-header.car-3{
+    transform: scale(0.98);
+    transition: 0.4s ease-in-out;    
+}
+ .img-header.car-3:hover{
+    transform: scale(1.1);
+}
+.img-header.car-4{
+    transform: scale(0.98);
+    transition: 0.4s ease-in-out;    
+}
+ .img-header.car-4:hover{
+    transform: scale(1.1);
+}
+.img-header.car-5{
+    transform: scale(0.98);
+    transition: 0.4s ease-in-out;    
+}
+ .img-header.car-5:hover{
+    transform: scale(1.1);
 }
 
-.final-image:hover .overlayyy{
-    /* right: 6px;
-    bottom: -5px;
-    left: -12px;
-    top: -12px; */
-}
-
-.images-final .final-image{
-    float: left;
-    width: 50%;
-    position: relative;
-}
 .overlayyy{
     position: absolute;
     background-color: rgba(0, 0, 0, 0.4);
-    top: 13px;
-    left: 15px;
-    bottom: 16px;
-    right: 29px;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
 }
 .overlayyy-content{
     margin-left: 20px;
